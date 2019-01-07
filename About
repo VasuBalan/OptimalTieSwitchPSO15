@@ -1,0 +1,15 @@
+Here pso15.c  executable file for 15 bus distribution system.
+
+-> Where the datas are given as two different files 
+
+-> ldata.pdt and bdata.pdt files
+
+-> Which reads the data and compute the required things for every combinations and finally display 
+   the results as risk factor values.
+
+-> Problem with this is that are 
+
+	* Not based on general data format
+	* Here if two tie switches were connected and fault occur during one line will take care by one tie switches and 
+	other tie switch has open and run the power flow.
+	* Power Flow has to be included in this, and then we have to update the entire system.
